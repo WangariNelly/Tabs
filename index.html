@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+   <section class="section">
+    <div class="title">
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, quod?</p>
+    </div>
+    <div class="about-center section-center">
+      <article class="about-img">
+        <img src="./hero-bcg.jpeg" alt="">
+      </article>
+      <article class="about">
+        <div class="btn-container">
+          <button class="tab-btn" active data-id="history">History</button>
+          <button class="tab-btn" active data-id="vision">Vision</button>
+          <button class="tab-btn" active data-id="goals">Goals</button>
+        </div>
+        <div class="about-content">
+          <div class="content active" id="history">
+            <h4>History</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In repellat, dignissimos voluptates nesciunt ullam omnis ex deserunt quidem. A sapiente placeat modi architecto. Quidem rem reiciendis, ut cumque nam quo.</p>
+          </div>
+          <div class="content" id="vision">
+            <h4>History</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id, ab eius eaque ratione eveniet, aspernatur fuga dolor, amet odio et enim dicta maxime modi impedit. Fugit, eos nulla alias iste id, earum sunt necessitatibus quisquam officiis, corrupti distinctio? Aperiam.</p>
+            <ul>
+              <li>list item</li>
+              <li>list item</li>
+              <li>list item</li>
+            </ul>
+          </div>
+          <div class="content" id="goals">
+            <h4>goals</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum beatae deserunt earum quis velit repudiandae temporibus ullam soluta nisi unde voluptatibus ab accusamus reprehenderit voluptatem, accusantium hic, iure autem natus sapiente in nihil sed, tenetur ratione iste. Asperiores maiores fugiat aut similique aliquam id nihil ullam saepe et culpa. Eum?
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+   </section>
+      
+    </lightning-accordion-section>
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
